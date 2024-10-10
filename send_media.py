@@ -179,11 +179,6 @@ Size: **{self.data["size"]}**
                         # attributes=attributes,
                         mime_type=mime_type,
                         buttons=[
-                            [
-                                Button.url(
-                                    "Direct Link",
-                                    url=f"https://{BOT_USERNAME}.t.me?start={self.uuid}",
-                                ),
                             ],
                             [
                                 Button.url("Channel ", url="https://t.me/sharmamod01"),
