@@ -178,8 +178,6 @@ Size: **{self.data["size"]}**
                         thumb=self.thumbnail,
                         # attributes=attributes,
                         mime_type=mime_type,
-                        buttons=[
-                            ],
                             [
                                 Button.url("Channel ", url="https://t.me/sharmamod01"),
                             ],
